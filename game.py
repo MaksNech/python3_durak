@@ -127,9 +127,9 @@ class CardDeck:
                             card.title)
                 stdscr.addstr(x, y, whstr, curses.color_pair(1))
                 x = x+1
-                if x == max_x:
+                if x == max_x-1:
                     x = 0
-                    y = y+30
+                    y = y+20
 
 
 class CardSet:
