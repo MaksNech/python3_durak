@@ -76,7 +76,7 @@ class PlayingCard:
 
 class CardDeck:
     suits_symbols = {'diamonds': '♦', 'clubs': '♣',
-                     'hearts ': '♥', 'spades': '♠'}
+                     'hearts': '♥', 'spades': '♠'}
     title_priority = {"6": 6, "7": 7, "8": 8,
                       "9": 9, "10": 10, "J": 11, "Q": 12, "K": 13, "A": 14}
 
