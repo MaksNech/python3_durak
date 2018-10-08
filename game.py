@@ -41,13 +41,13 @@ class UserInterface:
             x = x+1
             if x == max_x-1:
                 x = 0
-                y = y+30
+                y = y+20
             stdscr.addstr(x, y, "Priority: " +
                           str(card_set.sum_priority), curses.color_pair(1))
             x = x+1
             if x == max_x-1:
                 x = 0
-                y = y+30
+                y = y+20
 
             for card in card_set.temp_set:
                 whstr = str(card.symbol+" "+card.suit + " " +
@@ -56,12 +56,12 @@ class UserInterface:
                 x = x+1
                 if x == max_x-1:
                     x = 0
-                    y = y+30
+                    y = y+20
             stdscr.addstr(x, y, " "*15, curses.color_pair(1))
             x = x+1
             if x == max_x-1:
                 x = 0
-                y = y+30
+                y = y+20
 
 
 class PlayingCard:
