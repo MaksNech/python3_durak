@@ -123,8 +123,8 @@ class CardDeck:
 
         else:
             for card in self.deck:
-                whstr = str(card.symbol+" "+card.suit+" "+str(card.trump_suit) + " " +
-                            card.title+" "+str(card.priority))
+                whstr = str(card.symbol+" "+card.suit+" " +
+                            card.title)
                 stdscr.addstr(x, y, whstr, curses.color_pair(1))
                 x = x+1
                 if x == max_x:
