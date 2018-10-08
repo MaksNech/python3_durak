@@ -1,0 +1,6 @@
+To run game:
+
+1) Open terminal in current folder
+
+2) Type in terminal command:
+   "python game.py"
