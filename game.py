@@ -96,7 +96,7 @@ class CardDeck:
 
     def set_trump_suit(self):
         """Set trump suit card in deck"""
-        digit = random.randint(1, len(self.deck))
+        digit = random.randint(1, len(self.deck)-1)
         self.trump_suit = self.deck[digit].suit
         self.card_trump_suit = self.deck[digit]
         for card in self.deck:
