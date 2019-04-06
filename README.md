@@ -1,4 +1,4 @@
-# python-durak-console-game
+# Durak console card game.
 
 ## 1: Initial Setup
 
